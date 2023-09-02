@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-parallax > img{
+  height: fit-content !important;
+}
+
+.content {
+  height: 100vh;
+  background-position : center;
+  background-size: cover;
+}
+
+.dashboard {
+  cursor: default;
+}
+
+.left-nav {
+  cursor: default;
+}
+
+.searchBar {
+  outline: none;
+}
+
+.overview-nav h4 {
+  position: relative;
+  cursor: pointer;
+}
+
+.overview-nav h4::after {
+  content: '';
+  position: absolute;
+  background-color:#dddddd;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: .7s;
+}
+
+.overview-nav h4:hover::after {
+  width: 100%;
+}
+
+.element-cont h4, h1 {
+   cursor: default;
+}
+
+.element-cont {
+   transition: all ease-in-out .8s;
+}
+
+.element-cont:hover {
+   transform: scale(1.03);
+   transition: all ease-in-out 1.2s;
+}
+
+.right-bar {
+  height: 93vh;
+  background-color: #4a446c47;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.cities-widget-wrapper {
+  cursor: default;
+}
+
+.sidebar {
+  background-color:#4a446c03; ;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.sky {
+  box-shadow: 1px 2px 20px #f5f5f5c9;
+   border-radius: 50%;
+   background-color: #f5f5f561;
+   margin-bottom: 1rem;
+   padding: 1rem;
+}
+
+.progressive-container {
+  box-shadow: inset 1px 1px 4px black;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  background-color: #6c82998f;
+}
+
+.progressive-bar {
+  box-shadow: 1px 2px 26px #7668c7e6;
+  background-color:#dddddd; ;
+}
+
+.sunRise-timezone {
+  background-color: #2d2a4096;
+}
+
+.prediction-widget {
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 10px black;
+    padding: 1rem;
+    margin-top: .8rem;
+}
+
+.prediction-header-cont h3{
+   position: relative;
+   cursor: pointer;
+} 
+
+.prediction-header-cont h3::after {
+    content: '';
+    position: absolute;
+    background-color:#dddddd;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: .7s;
+}
+
+.prediction-header-cont h3:hover::after {
+  width: 100%;
+  transition: .7s;
+}
+
+.S-headers-cont h4{
+  content : '';
+  position: relative;
+  cursor: pointer;
+}
+
+.S-headers-cont h4::after {
+  content: '';
+  position: absolute;
+  background-color: #dddddd;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: .7s;
+}
+
+.S-headers-cont h4:hover::after {
+  width: 100%;
+  transition: .7s;
+}
+
+.sunRise-timezone {
+  transition: all ease-in-out 1s;
+}
+
+.sunRise-timezone:hover {
+  background-color: rgba(26, 22, 22, 0.753);
+  transition: all ease-in-out 1s;
+  cursor: default;
+}
+
+.rain-chance h3,h5 {
+   cursor: default;
+}
+
+.prediction-widget h3{
+  cursor:default;
+}
+
